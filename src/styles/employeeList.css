@@ -1,0 +1,245 @@
+.employee-list-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .employee-list-content h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .employee-list-content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .employee-list-content button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .employee-list-content button:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  table td {
+    background-color: #f9f9f9;
+  }
+  
+  table img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+
+  /* Basic Styles for Layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.employee-list-content {
+  margin: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+  margin: 10px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.header-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-controls button {
+  width: auto;
+}
+
+.sort-buttons {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 1200px) {
+  .employee-list-content {
+    margin: 10px;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+
+  .header-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .sort-buttons {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .employee-list-content {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  table {
+    font-size: 0.8rem;
+  }
+
+  .header-controls button,
+  .header-controls input {
+    width: 100%;
+  }
+
+  .sort-buttons {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  /* Adjust image sizes on smaller devices */
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .employee-list-content {
+    padding: 5px;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  table {
+    font-size: 0.75rem;
+  }
+
+  .header-controls,
+  .sort-buttons {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  .employee-list-content h2,
+  .employee-list-content p {
+    font-size: 1rem;
+  }
+
+  .header-controls {
+    margin-bottom: 20px;
+  }
+
+  /* Adjust the image size for very small screens */
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
+

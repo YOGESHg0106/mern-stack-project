@@ -1,0 +1,80 @@
+/* General Styles */
+.auth-container {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* LoginPage Specific Styles */
+  .login-page h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .login-page input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-page button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-page button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* SignupPage Specific Styles */
+  .signup-page h2 {
+    color: #444;
+    font-size: 24px;
+  }
+  
+  .signup-page input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+  }
+  
+  .signup-page button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signup-page button:hover {
+    background-color: #218838;
+  }
+  
+  /* Link styles for "Back to Login" */
+  .signup-page .back-to-login {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-page .back-to-login:hover {
+    color: #0056b3;
+  }
+  

@@ -1,0 +1,14 @@
+/* Dashboard Page Styles */
+.dashboard-content {
+    padding-top: 60px; /* To account for fixed navbar height */
+    text-align: center;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+  }
+  
+  .dashboard-content h2 {
+    color: #333;
+    font-size: 28px;
+    margin-top: 40px;
+  }
+  
